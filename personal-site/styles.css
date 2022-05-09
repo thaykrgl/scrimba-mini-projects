@@ -25,7 +25,6 @@
 
 body, html {
     margin: 0;
-    padding: 10px;
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
@@ -73,4 +72,12 @@ button {
     cursor: pointer;
     font-family: var(--font);
     width: 160px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
