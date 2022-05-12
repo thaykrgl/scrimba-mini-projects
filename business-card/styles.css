@@ -20,6 +20,7 @@ body {
   background: #dee2e6;
   border-bottom: 6px solid #343a40;
   color: #212529;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 500px) {
