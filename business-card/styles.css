@@ -1,0 +1,47 @@
+body {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #dee2e6;
+  border-bottom: 6px solid #343a40;
+  color: #212529;
+}
+
+@media screen and (max-width: 500px) {
+  .avatar {
+    width: 125px;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .avatar {
+    width: 100px;
+  }
+
+  body {
+    font-size: 0.8rem;
+  }
+}
