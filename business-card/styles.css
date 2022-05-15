@@ -1,6 +1,10 @@
 body {
   margin: 20px;
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
