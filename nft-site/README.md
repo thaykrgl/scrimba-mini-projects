@@ -6,4 +6,4 @@
 
 <img src="./images/nft-mobile.png" alt="Mobile View">
 
-- Live Site - [Github Pages](https://thaykrgl.github.io/scrimba-mini-projects/personal-site/)
+- Live Site - [Github Pages](https://thaykrgl.github.io/scrimba-mini-projects/nft-site/)
