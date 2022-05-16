@@ -1,5 +1,5 @@
 body {
-  background: var(--background-image) repeat-y center center fixed;
+  background: var(--background-image) repeat-y;
   padding-top: 15px;
   color: var(--main-color);
   -webkit-background-size: cover;
