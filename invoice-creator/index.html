@@ -1,49 +1,57 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <header>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="main-container">
             <h1>Invoice creator</h1>
             <p>Thanks for choosing GoodCorp, LLC!</p>
-        </header>
-        <main>
-            <div class="main-container">
-                <section class="buttons">
-                    <a href="#" id="wash" class="btn">Wash Car: $10</a>
-                    <a href="#" id="mow" class="btn">Mow Lawn: $20</a>
-                    <a href="#" id="pull" class="btn">Pull Weeds: $30</a>
-                </section>
-                <section class="services">
-                    <div class="task">
-                        <h5>Task</h5>
-                        <ul id="task"></ul>    
-                    </div>
-                    <div class="total">
-                        <h5>Total</h5>
-                        <ul id="total"></ul>
-                    </div>
-                </section>
-                <section class="payment">
-                    <div class="notes">
-                        <h5>Notes</h5>
-                        <p>We accept cash, credit card, or PayPal</p>
-                    </div>
-                    <div class="total-amount">
-                        <h5>Total Amount</h5>
-                        <p>$<span id="total-price">0</span></p>
-                    </div>
-                </section>
-                <footer>
-                    <a id="invoice" href="#"><i class="fa-solid fa-envelope"></i>Send Invoice</a>
-                </footer>
-            </div>
-            
-        </main>
-        <script src="index.js"></script>
-    </body>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="buttons">
+                <a href="#" id="wash" class="btn">Wash Car: $10</a>
+                <a href="#" id="mow" class="btn">Mow Lawn: $20</a>
+                <a href="#" id="pull" class="btn">Pull Weeds: $30</a>
+            </section>
+            <section class="services">
+                <div class="task">
+                    <h5>Task</h5>
+                    <ul id="task"></ul>
+                </div>
+                <div class="total">
+                    <h5>Total</h5>
+                    <ul id="total"></ul>
+                </div>
+            </section>
+            <section class="payment">
+                <div class="notes">
+                    <h5>Notes</h5>
+                    <p>We accept cash, credit card, or PayPal</p>
+                </div>
+                <div class="total-amount">
+                    <h5>Total Amount</h5>
+                    <p>$<span id="total-price">0</span></p>
+                </div>
+            </section>
+            <footer>
+                <a id="invoice" href="#"><i class="fa-solid fa-envelope"></i>Send Invoice</a>
+            </footer>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
 </html>
