@@ -15,4 +15,8 @@
 
 <img src="./images/invoice-mobile.png" alt="Mobile View">
 
+#### Usage
+
+<img src="./images/invoice.gif" alt="Usage Gif">
+
 - Live Site - [Github Pages](https://thaykrgl.github.io/scrimba-mini-projects/invoice-creator/)
